@@ -19,8 +19,7 @@
         align-items: center;
         height: 100%;
         padding: 25px;
-        border: 80px;
-       border-color: #C0C0C0;
+        border-color: #C0C0C0;
         border-style: solid;
         border-top-width: 30px;
         border-bottom-width: 30px;
@@ -33,7 +32,7 @@
             }
       input{
             padding: 10px;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             background: transparent;
             border: none;
             border-bottom: 1px solid #D3D3D3;
@@ -96,9 +95,6 @@
       }
     </style>
     <title>Registration Form</title>
-    <link rel = "icon" href =  
-"https://cdn.onlinewebfonts.com/svg/img_180671.png" 
-        type = "image/x-icon"> 
   </head>
   <body>
     <div class="home">
@@ -118,22 +114,22 @@
                    placeholder="Enter Username"/>
           <label for="Email Address"><strong>Email Address:</strong></label>
           <input type="email" 
-                 name="email" 
+                 name="txtEmail" 
                  placeholder="Enter Email Address">
           <label for="Password"><strong>Password:</strong></label>
           <input type="password" 
-                 name="password" 
+                 name="txtPassword" 
                  placeholder="Enter Password">
                 </div>
         
         <div class="sex">
           <label for="Sex"><strong>Sex:</strong></label>
           <input type="radio" 
-                 name="Sex" 
+                 name="radioSex" 
                  value="Male"/>
           <label for="Sex">Male</label>
           <input type="radio" 
-                 name="Sex" 
+                 name="radioSex" 
                  value="Female"/>
           <label for="Sex">Female</label>
         </div>
@@ -141,7 +137,7 @@
         <div class="birthdate">
           <label for="Birthdate"><strong>Birth Date:</strong></label>
                     <input type="date" 
-                           name="birthday">
+                           name="inputBirthdate">
                            </div>
           
         <div class="region">
@@ -172,8 +168,8 @@
         </div>
          
         <div class="buttons">
-        <button class="btn reset" onClick="window.location.reload();">Reset</button>
-        <button class="btn register"onclick="myFunction()">Register</button>
+        <button id="btnReset" class="btn reset" onClick="window.location.reload();">Reset</button>
+        <button id="btnRegister" class="btn register"onclick="myFunction()">Register</button>
         <script>
           function myFunction() {
             alert("You are now Registered!");
