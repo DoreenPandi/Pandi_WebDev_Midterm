@@ -93,7 +93,7 @@ nav hr{
 }
 ul.body-list{
   list-style-position:inside;
-  list-style-image: url('../images/small_arrow.png');
+  list-style-image: url('https://doreenpandi.github.io/Pandi_WebDev_Midterm/img/small_arrow.png');
   line-height:1.8em;
 }
 .quote p{
