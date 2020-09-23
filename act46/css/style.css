@@ -1,0 +1,100 @@
+body {
+  font-family: 'Arial';
+}
+header{
+  width: 100%;
+}
+ul{
+  list-style:none;
+}
+#navigation{
+  float:right;
+}
+#navigation li{
+  padding: 8px;
+  display: inline-block;
+  
+}
+#gmail,#images{
+  color: #404040;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+.google_logo{
+  text-align:center;
+  clear: both;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.search_bar {
+  text-align:center;
+}
+.round{
+  width: 100%;
+    border-radius: 20px;
+    border: 1px lightgray solid;
+}
+#search { 
+  width: 650px;
+  height: 0px;
+  padding: 20px 10px;
+}
+.buttons {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 300px;
+}
+#button1, #button2 {
+  border: none;
+  outline: none;
+  color: #666666;
+  width:135px;
+  height:35px;
+  margin-left:15px;
+}
+#button1:hover{
+  border:black 1px solid;
+  color:black;
+}
+#button2:hover{
+  border:black 1px solid;
+  color:black;
+}
+.languange{
+  text-align:center;
+  font-size: 13px;
+}
+.center {
+    position: absolute;
+    left:44%;
+    top:80%;
+}
+footer{
+  border-top: solid 2px lightgray;
+  background: #e4e4e4;
+  width: 100%;
+  margin-top: -16px;
+}
+footer ul li {
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 13px;
+}
+
+footer1 ul {
+  float: left;
+  padding: 0px;
+}
+footer ul a:hover {
+  text-decoration: underline;
+}
+.right{
+  float: right;
+  padding: 0px 13px 0px 13px;
+}
