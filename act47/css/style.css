@@ -21,8 +21,9 @@ h1{
   text-align: justify;
 }
 img{
+  width: 500px;
+  height: auto;
   float:right;
-  width:25%;
   padding: 45px;
 }
 p {
