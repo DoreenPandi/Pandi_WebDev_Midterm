@@ -1,9 +1,37 @@
 body{
   background: #141414;
+  scroll-behavior: smooth;
+}
+header{
+  border-bottom: 2px solid white;
+  padding: 20px;
+}
+#logo{
+  top: 20px;
+  left: 300px;
+  width: 70px;
+  position: absolute;
+}
+.main-nav ul li {
+    display: inline-block;
+}
+.main-nav ul li a {
+  font-family: 'Lucida Console';
+  color: #FADA5E;
+  font-size: 20px;
+  letter-spacing:5px;
+  text-decoration: none;
+  padding: 10px;
+}
+.link-nav li:first-child {
+    margin-left: 900px;
+}
+.main-nav ul li a:hover {
+    border: 2px solid #FADA5E;
 }
 .border{
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 .container{
   max-width: 500px;
@@ -35,7 +63,7 @@ h2{
   width: 500px;
   height: auto;
   position: absolute;
-  left: 850px;
+  left: 800px;
 }
 #intro2{
   font-size: 30px;
