@@ -2,8 +2,8 @@ body{
   background: #141414;
 }
 .border{
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 .container{
   max-width: 500px;
@@ -35,7 +35,7 @@ h2{
   width: 500px;
   height: auto;
   position: absolute;
-  left: 800px;
+  left: 850px;
 }
 #intro2{
   font-size: 30px;
